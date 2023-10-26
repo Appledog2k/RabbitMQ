@@ -5,19 +5,27 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutPublisher", "FanoutPublisher\FanoutPublisher.csproj", "{1E497DD9-7898-4DE2-B404-227C45A38D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "FanoutConsumer\Consumer.csproj", "{D3416B58-0A3E-40F0-BC67-293510248D5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "FanoutConsumer\Consumer.csproj", "{D3416B58-0A3E-40F0-BC67-293510248D5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchange", "DirectExchange\DirectExchange.csproj", "{60D43F8E-DD68-4A8C-87A3-C0BC4FA942B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange", "DirectExchange\DirectExchange.csproj", "{60D43F8E-DD68-4A8C-87A3-C0BC4FA942B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicExchange", "TopicExchange\TopicExchange.csproj", "{8941C792-0632-4C97-B00E-8AFA28F4B798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicExchange", "TopicExchange\TopicExchange.csproj", "{8941C792-0632-4C97-B00E-8AFA28F4B798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadersExchange", "HeadersExchange\HeadersExchange.csproj", "{BB78F222-DDC4-4EE8-ACBC-5E78ECA0E757}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadersExchange", "HeadersExchange\HeadersExchange.csproj", "{BB78F222-DDC4-4EE8-ACBC-5E78ECA0E757}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultExchange", "DefaultExchange\DefaultExchange.csproj", "{EC1BED53-92A8-4DBB-B8C5-93ECF6D6A5CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultExchange", "DefaultExchange\DefaultExchange.csproj", "{EC1BED53-92A8-4DBB-B8C5-93ECF6D6A5CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeToExchange", "ExchangeToExchange\ExchangeToExchange.csproj", "{3C8A7BF6-7D55-4DA6-A68C-31AA87DCD42B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeToExchange", "ExchangeToExchange\ExchangeToExchange.csproj", "{3C8A7BF6-7D55-4DA6-A68C-31AA87DCD42B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlternateExchange", "AlternateExchange\AlternateExchange.csproj", "{D0ECD3E8-100C-4329-A564-A6E1D10C5D06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlternateExchange", "AlternateExchange\AlternateExchange.csproj", "{D0ECD3E8-100C-4329-A564-A6E1D10C5D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushPullDemo", "PushPullDemo\PushPullDemo.csproj", "{06E7CCBB-C8FC-4B21-B3A7-467FB167EB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkQueuesFair", "WorkQueuesFair\WorkQueuesFair.csproj", "{24243D7A-FE9B-4B90-9F7C-F8E4A553F65E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Requestor", "Requestor\Requestor.csproj", "{77D82752-A225-491C-98AB-F7F95ADF04F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replier", "Replier\Replier.csproj", "{054FB708-D617-4D21-90C4-D8510C4DC4C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{D0ECD3E8-100C-4329-A564-A6E1D10C5D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0ECD3E8-100C-4329-A564-A6E1D10C5D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0ECD3E8-100C-4329-A564-A6E1D10C5D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E7CCBB-C8FC-4B21-B3A7-467FB167EB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E7CCBB-C8FC-4B21-B3A7-467FB167EB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E7CCBB-C8FC-4B21-B3A7-467FB167EB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E7CCBB-C8FC-4B21-B3A7-467FB167EB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24243D7A-FE9B-4B90-9F7C-F8E4A553F65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24243D7A-FE9B-4B90-9F7C-F8E4A553F65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24243D7A-FE9B-4B90-9F7C-F8E4A553F65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24243D7A-FE9B-4B90-9F7C-F8E4A553F65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D82752-A225-491C-98AB-F7F95ADF04F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D82752-A225-491C-98AB-F7F95ADF04F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D82752-A225-491C-98AB-F7F95ADF04F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D82752-A225-491C-98AB-F7F95ADF04F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054FB708-D617-4D21-90C4-D8510C4DC4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054FB708-D617-4D21-90C4-D8510C4DC4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054FB708-D617-4D21-90C4-D8510C4DC4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054FB708-D617-4D21-90C4-D8510C4DC4C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
